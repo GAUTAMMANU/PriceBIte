@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    /* border:1px solid rgb(39, 35, 35); */
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background:url(./images/carousel/img4.jpg);
+    background-size: cover;
+}
+
+
+.container h3,p{
+    color: #131521;;
+    font-size:30px;
+    text-align:center;
+    text-transform:capitalize;
+    font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+    font-weight:900;
+
+    padding:1.5rem;
+}
+
+
+form{
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.container{
+    max-width:100%;
+    height:100vh;
+    width:60vw;
+    padding:34px;
+    margin:auto;
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust the alpha value for transparency */
+    backdrop-filter: blur(10px);
+    
+}
+
+  input,textarea{
+    font-size:20px;
+    width:100%;
+    margin:11px;
+    padding:7px;
+    border:2px solid black;
+    outline:none;
+    border-radius:6px;
+}
+
+.btn{
+    color:white;
+    background-color:#13152f;
+    font-size:20px;
+    border:2px solid white;
+    padding:8px 12px;
+    border-radius:14px;
+    cursor:pointer;
+    box-shadow: 2px 2px 2px #13152f
+}
+
+/* .btn:hover{
+    box-shadow: -2px -2px -2px #13152f;
+    backdrop-filter: none;
+} */
+
+.submitMsg{
+    color:lime;
+    font-style:italic;
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.underline-one{
+    border: 1px solid black;
+    border-color:#131521;
+    border-width: 5px;
+    width:25rem;
+    border-radius:50%;
+  
+  }

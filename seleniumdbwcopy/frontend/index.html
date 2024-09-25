@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriceBite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        .footer{
+            display:flex;
+            /* flex-direction:column;
+            align-items: space-evenly; */
+            justify-content:space-between;
+            background-color:rgb(246, 42, 42);
+            color:white;
+            font-weight:700;
+            cursor:pointer;
+            }
+
+            .address{
+            margin-left:5rem;
+            margin-top:2rem;
+            margin-bottom:2rem;
+            }
+
+            .socials{
+            margin-right:5rem;
+            margin-top:2rem;
+            margin-bottom:2rem;
+            }
+
+            .about,.companies,.deals{
+                margin:2rem 10rem;
+                text-align:center;
+                font-size:2rem;
+                
+            }
+
+            .facilities{
+                margin:2rem;
+                text-align:left;
+                font-size:2rem;
+                
+            }
+
+            .para1{
+                font-size:1.2rem;
+                padding-left:3rem;
+                padding-right:3rem;
+                padding-top:1.8rem;
+                
+                /* opacity:0.2; */
+            }
+
+
+            .container{
+                display:flex;
+                gap:5px;
+            }
+            .about-img{
+                height:300px;
+                width:400px;
+                border-radius:20%;
+            }
+
+            .brand{
+                font-size:2.3rem;
+            }
+            
+            .company-logos{
+                display:flex;
+                gap:2rem;
+                padding-left:7rem;
+                
+            }
+
+            .company-logos img{
+                border-radius:10%;
+                height:250px;
+                width:300px;
+                
+            }
+
+            .company-logos img:hover{
+                height:260px;
+                width:310px;
+                transition:0.2s;
+            }
+
+            .list{
+                 font-size:1.5rem;
+                 margin:4rem;
+            }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="#" class="navbar-logo h-font">PriceBite</a>
+        </div>
+
+        <div class="navbar-right">
+            <!-- <a href="./signup.php" class="navbar-button">Sign Up</a> -->
+            <a href="..\index.php" class="navbar-button">Login</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1 class="h-font">Find the Cheapest Food Deals</h1>
+            <p>Save money on your meals with our easy-to-use website.</p>
+            <a href="..\index.php" class="hero-button">Get Started</a>
+            
+        </div>
+    </section>
+
+    <section class="companies">
+        <h2 class="h-font" style="font-size:2rem">Our Partnered Companies</h2>
+        <div class="company-logos">
+            <img src="./images/company/Swiggy_logo.png" alt="swiggy"><img src="./images/company/magicpin.png" alt=""><img src="./images/company/zomato.png" alt="">
+        </div>
+    </section>
+
+    <section class="about">
+        <h2 class="h-font ">About Us</h2>
+        <div class="container">
+            <img src="images/carousel/img4.jpg" class="about-img">
+            <p class="para1">In our pursuit, we curate budget-friendly recipes, share savvy dining tips, and uncover hidden gems where flavor meets affordability. By empowering individuals to savor delightful meals without breaking the bank, we aim to foster a community that values both culinary excellence and financial well-being. Join us on this delectable journey, where good food is not just a pleasure but a right for everyone to enjoy.</p>
+        </div>
+       
+    </section>
+
+    <section class="facilities">
+        <h2 class="h-font " style="text-align:center">Facilities</h2>
+        <div class="container">
+            <p class="para1">
+                <ul class="list">
+                    <li>Save Money on Every Order</li>
+                    <li>One-Stop Food Price Comparison</li>
+                    <li>Exclusive Discounts and Coupons</li>
+                    <li>Transparent and Unbiased Comparisons</li>
+                </ul>
+            </p>
+            <img src="images/carousel/img5.jpg" class="about-img">
+        </div>
+       
+    </section>
+
+    <br><br>
+    <section class="deals">
+        <h2 class="h-font ">Join Us! What are you waiting for?</h2>
+        <div class="container">
+            <img src="images/carousel/img1.jpg" class="about-img">
+            <p class="para1">Whether you're a seasoned foodie looking for exciting new deals or someone who appreciates the value of every dollar spent,PriceBite is here to enhance your culinary experience. Join our community of savvy food enthusiasts, explore diverse cuisines, and embark on a delightful journey of savings and culinary discoveries. Happy ordering!</p>
+        </div>
+       
+    </section>
+
+    <div class="footer">
+        <div class="address">
+            <div class="brand">PriceBite</div>
+            <div class="line-1">CL02-Lab, ABB-3</div>
+            <div class="line-2">Jaypee Institute of information Technology</div>
+            <div class="line-3">Noida, Sector-62</div>
+        </div>
+        <div class="socials">
+            <br>
+            <div class="link-1">Instagram</div>
+            <div class="link-2">Facebook</div>
+            <div class="link-3">Twitter</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* Navbar Styles */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar-button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: white;
+  background-color: red;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.h-font {
+  font-family: "Merienda", cursive;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer {
+  display: flex;
+
+  justify-content: space-between;
+  background-color: rgb(246, 42, 42);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.address {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.socials {
+  margin-right: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section {
+  display: flex;
+  gap: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  /* margin-left:5rem;
+        margin-right:5rem; */
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.swiggy,
+.magicpin {
+  height: 370px;
+  width: 400px;
+  text-align: center;
+  border-radius: 10%;
+  color: orangered;
+  box-shadow: 6px 4px 20px rgba(169, 166, 166, 0.18),
+    -6px -4px 20px rgba(169, 166, 166, 0.18);
+    overflow-y:hidden;
+}
+
+
+.brand {
+  font-size: 2.3rem;
+}
+
+
+.cartimg{
+    height:100px;
+    width:100px;
+
+}
+.cartimg2{
+    height:120px;
+    width:150px;
+
+}
+
+.cart-Value{
+    font-size:2.5rem;
+
+}
+
+.btn-result{
+  color:white;
+  height:50px;
+  width:100px;
+  border:none;
+  border-radius:15%;
+  background-color:red;
+
+}
+
+
+.winner {
+  background: linear-gradient(to bottom right,rgb(122, 237, 122)  30%,rgb(88, 244, 88) 40%);
+  border: 2px solid rgb(2, 79, 2);
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight:900;
+  font-size:1.5rem; 
+}
+
+
